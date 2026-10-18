@@ -5,8 +5,10 @@ ANP e Banco Mundial) e os organiza por mandato presidencial, com as mesmas fórm
 governos. O objetivo é informar o debate, não defender governo nenhum; as regras estão em
 [CLAUDE.md](CLAUDE.md).
 
-> Situação: pipeline completo (coleta, tratamento, análise e relatório). O resultado é
-> `reports/relatorio.html`, um arquivo único que abre no navegador.
+**Relatório:** https://feliperamiresterrazas.github.io/economia-mandatos/
+
+O relatório é `reports/relatorio.html`, gerado por `python -m src.main` e republicado no site a
+cada atualização no `master`.
 
 ## Instalação
 
@@ -91,3 +93,14 @@ execução acusa a diferença de hash e para.
 | IPEADATA | `http://www.ipeadata.gov.br/api/odata4` |
 | Banco Mundial | `https://api.worldbank.org/v2` |
 | ANP | série mensal da ANP republicada pelo IPEADATA (o portal da ANP não oferece API estável) |
+
+## Como contribuir
+
+Correções, novas séries e novos indicadores são bem-vindos. Leia [CONTRIBUTING.md](CONTRIBUTING.md)
+antes: indicadores novos são discutidos numa issue antes do pull request, sem olhar os resultados
+por mandato.
+
+## Licença
+
+Código sob [MIT](LICENSE). Relatório, tabelas calculadas e textos sob
+[CC BY 4.0](LICENSE-CONTEUDO.md). Os dados brutos seguem os termos das fontes oficiais.
