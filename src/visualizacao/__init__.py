@@ -31,7 +31,10 @@ e = html.escape
 def _unidade_variacao(ind: dict) -> str:
     if ind["metrica"] == "variacao_pct":
         return "%"
-    return "p.p." if "%" in ind["unidade"] else ind["unidade"]
+    if "%" in ind["unidade"]:
+        return "p.p."
+    # índices com escala entre parênteses, ex. Gini "(0-100)": a variação é em pontos do índice
+    return "pontos" if ind["unidade"].startswith("(") else ind["unidade"]
 
 
 def celula(r: pd.Series, ind: dict, notas: dict) -> str:

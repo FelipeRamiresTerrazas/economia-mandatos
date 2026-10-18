@@ -5,7 +5,8 @@ import pytest
 from src import tratamento as t
 from src.analise import Indisponivel, NaoSeAplica, calcular
 from src.periodos import Periodo, fim_do_periodo, listar_periodos, n_esperado
-from src.visualizacao.graficos import numero
+from src.visualizacao import _unidade_variacao
+from src.visualizacao.graficos import _casas_tick, numero
 
 TS = pd.Timestamp
 MANDATO = Periodo("m", "M", TS("2003-01-01"), TS("2004-12-31"))
@@ -148,3 +149,16 @@ def test_numero_formato_brasileiro():
     assert numero(1234.5) == "1.234,5"
     assert numero(-0.25, 2, sinal=True) == "−0,25"
     assert numero(3.0, 1, sinal=True) == "+3,0"
+
+
+def test_rotulo_do_eixo_nao_arredonda_passo_fracionario():
+    assert _casas_tick([-5.0, -2.5, 0.0, 2.5, 5.0]) == 1
+    assert _casas_tick([0.0, 5.0, 10.0]) == 0
+    assert _casas_tick([0.0, 0.25, 0.5]) == 2
+
+
+def test_unidade_da_variacao():
+    assert _unidade_variacao({"metrica": "inicio_fim", "unidade": "%"}) == "p.p."
+    assert _unidade_variacao({"metrica": "inicio_fim", "unidade": "(0-100)"}) == "pontos"
+    assert _unidade_variacao({"metrica": "inicio_fim", "unidade": "US$ bi"}) == "US$ bi"
+    assert _unidade_variacao({"metrica": "variacao_pct", "unidade": "R$"}) == "%"

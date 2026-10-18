@@ -40,8 +40,9 @@ def _ticks(vmin: float, vmax: float, alvo: int = 5) -> list[float]:
 
 
 def _casas_tick(ticks: list[float]) -> int:
+    """Menor número de casas que representa o passo sem arredondar (2,5 -> 1 casa; 0,25 -> 2)."""
     passo = ticks[1] - ticks[0] if len(ticks) > 1 else 1
-    return 0 if passo >= 1 else (1 if passo >= 0.1 else 2)
+    return next((c for c in range(4) if abs(round(passo, c) - passo) < 1e-9), 3)
 
 
 def grafico_linhas(gid: str, series: list[dict], mandatos: list[Periodo], subcortes: list[pd.Timestamp],
