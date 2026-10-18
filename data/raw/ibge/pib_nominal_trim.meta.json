@@ -1,0 +1,16 @@
+{
+  "serie_id": "pib_nominal_trim",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 1846,
+    "variavel": 585,
+    "classificacoes": {
+      "11255": 90707
+    }
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/585/p/all/c11255/90707"
+  ],
+  "baixado_em": "2026-10-16T20:55:57-03:00",
+  "sha256": "e812cd2e3c6f62e61d75368c7c62f4c40e5dd863e3efaa7885c1f74d73018244"
+}

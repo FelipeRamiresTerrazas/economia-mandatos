@@ -1,0 +1,13 @@
+{
+  "serie_id": "informalidade_trim",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 8529,
+    "variavel": 12466
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/8529/n1/all/v/12466/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:59-03:00",
+  "sha256": "5b6f3c66ff856b3d2b6e533a7cb6316c1dedea2e4062a241bdaf1cd5712ed7f5"
+}

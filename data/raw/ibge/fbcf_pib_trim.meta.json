@@ -1,0 +1,13 @@
+{
+  "serie_id": "fbcf_pib_trim",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 6727,
+    "variavel": 2517
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/6727/n1/all/v/2517/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:58-03:00",
+  "sha256": "10d3eb5b165e07933a36a157cb23a6e4c45d702df97fc60d75886e91aac8c63a"
+}

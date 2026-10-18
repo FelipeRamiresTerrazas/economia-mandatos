@@ -1,0 +1,13 @@
+{
+  "serie_id": "pib_anual_corrente",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 6784,
+    "variavel": 9808
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/6784/n1/all/v/9808/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:57-03:00",
+  "sha256": "bc913d19e8d1178cb7d67ea31a14f446ca26104ef0151bb0e0a3a615d1b33237"
+}

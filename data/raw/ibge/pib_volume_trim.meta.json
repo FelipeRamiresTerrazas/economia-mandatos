@@ -1,0 +1,16 @@
+{
+  "serie_id": "pib_volume_trim",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 1620,
+    "variavel": 583,
+    "classificacoes": {
+      "11255": 90707
+    }
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/1620/n1/all/v/583/p/all/c11255/90707"
+  ],
+  "baixado_em": "2026-10-16T20:55:57-03:00",
+  "sha256": "28e91a62d2e97422dacc1fb6c0d256f809bb6f5aafd6b8def76d1e20106dff75"
+}

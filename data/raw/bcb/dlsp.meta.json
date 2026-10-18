@@ -1,0 +1,17 @@
+{
+  "serie_id": "dlsp",
+  "fonte": "bcb",
+  "codigo": {
+    "sgs": 4513
+  },
+  "urls": [
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01%2F01%2F2000&dataFinal=31%2F12%2F2004",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01%2F01%2F2005&dataFinal=31%2F12%2F2009",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01%2F01%2F2010&dataFinal=31%2F12%2F2014",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01%2F01%2F2015&dataFinal=31%2F12%2F2019",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01%2F01%2F2020&dataFinal=31%2F12%2F2024",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01%2F01%2F2025&dataFinal=16%2F10%2F2026"
+  ],
+  "baixado_em": "2026-10-16T20:59:54-03:00",
+  "sha256": "6146964a98cbf0eabb6e8ddb9c7f381c076d377dbd93b7d78c37150631edbeff"
+}

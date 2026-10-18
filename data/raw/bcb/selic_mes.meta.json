@@ -1,0 +1,17 @@
+{
+  "serie_id": "selic_mes",
+  "fonte": "bcb",
+  "codigo": {
+    "sgs": 4390
+  },
+  "urls": [
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json&dataInicial=01%2F01%2F2000&dataFinal=31%2F12%2F2004",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json&dataInicial=01%2F01%2F2005&dataFinal=31%2F12%2F2009",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json&dataInicial=01%2F01%2F2010&dataFinal=31%2F12%2F2014",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json&dataInicial=01%2F01%2F2015&dataFinal=31%2F12%2F2019",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json&dataInicial=01%2F01%2F2020&dataFinal=31%2F12%2F2024",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json&dataInicial=01%2F01%2F2025&dataFinal=16%2F10%2F2026"
+  ],
+  "baixado_em": "2026-10-16T20:57:26-03:00",
+  "sha256": "8ebf70999f8f2014a6c05af96cfe6f7970eb2942cea3fc5453c008565587733c"
+}

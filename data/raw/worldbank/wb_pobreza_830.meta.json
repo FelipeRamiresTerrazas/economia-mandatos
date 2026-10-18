@@ -1,0 +1,13 @@
+{
+  "serie_id": "wb_pobreza_830",
+  "fonte": "worldbank",
+  "codigo": {
+    "indicador": "SI.POV.UMIC"
+  },
+  "urls": [
+    "https://api.worldbank.org/v2/country/BRA;LCN;UMC;WLD/indicator/SI.POV.UMIC?format=json&date=2000%3A2026&per_page=1000&page=1"
+  ],
+  "baixado_em": "2026-10-16T21:02:47-03:00",
+  "sha256": "3466527474e1973b3f9992894433b91184a3df1f5c7bea846e22fb14de1e34b4",
+  "worldbank_lastupdated": "2026-10-08"
+}

@@ -1,0 +1,13 @@
+{
+  "serie_id": "wb_desemprego_oit",
+  "fonte": "worldbank",
+  "codigo": {
+    "indicador": "SL.UEM.TOTL.ZS"
+  },
+  "urls": [
+    "https://api.worldbank.org/v2/country/BRA;LCN;UMC;WLD/indicator/SL.UEM.TOTL.ZS?format=json&date=2000%3A2026&per_page=1000&page=1"
+  ],
+  "baixado_em": "2026-10-16T21:01:58-03:00",
+  "sha256": "d2208e4ee003828c11e19833a31140cd353aee5d0a97cdaa2cf8d1e738bd56df",
+  "worldbank_lastupdated": "2026-10-08"
+}

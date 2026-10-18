@@ -1,0 +1,1678 @@
+[
+ [
+  {
+   "page": 1,
+   "pages": 1,
+   "per_page": 1000,
+   "total": 104,
+   "sourceid": "2",
+   "lastupdated": "2026-10-08"
+  },
+  [
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2025",
+    "value": 1.89458783745351,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2024",
+    "value": 3.00083291892194,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2023",
+    "value": 2.83370012861097,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2022",
+    "value": 2.64631532411505,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2021",
+    "value": 4.3179316171849,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2020",
+    "value": -3.83550546659214,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2019",
+    "value": 0.562970837578547,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2018",
+    "value": 1.09040860447158,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2017",
+    "value": 0.587668928736335,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2016",
+    "value": -4.01012719354725,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2015",
+    "value": -4.30639755912077,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2014",
+    "value": -0.303163572499983,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2013",
+    "value": 2.17333080532316,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2012",
+    "value": 1.09733293821196,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2011",
+    "value": 3.13169854409105,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2010",
+    "value": 6.62782994932327,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2009",
+    "value": -1.0163236214624,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2008",
+    "value": 4.09221626720056,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2007",
+    "value": 5.00147015838483,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2006",
+    "value": 2.86752083975395,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2005",
+    "value": 2.07730833836257,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2004",
+    "value": 4.57169367299971,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2003",
+    "value": -0.0458328311687239,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2002",
+    "value": 1.78204308366739,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2001",
+    "value": 0.0770005174179715,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2000",
+    "value": 2.96222045087984,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2025",
+    "value": 1.64506712959161,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2024",
+    "value": 1.54941018109591,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2023",
+    "value": 1.50609084727324,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2022",
+    "value": 3.47347159273626,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2021",
+    "value": 6.45960269873731,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2020",
+    "value": -7.51392201082636,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2019",
+    "value": -0.494031203348314,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2018",
+    "value": 0.369053683682139,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2017",
+    "value": 0.638987772497558,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2016",
+    "value": -1.66359354962314,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2015",
+    "value": -0.735070167846246,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2014",
+    "value": 0.178576307110575,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2013",
+    "value": 1.65694565560521,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2012",
+    "value": 1.56308145761643,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2011",
+    "value": 3.28266013948726,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2010",
+    "value": 5.00192200748344,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2009",
+    "value": -3.39134983502808,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2008",
+    "value": 2.50504470148563,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2007",
+    "value": 4.06635917571647,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2006",
+    "value": 4.01951163630008,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2005",
+    "value": 2.84285836592404,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2004",
+    "value": 4.40699756191363,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2003",
+    "value": 0.898840652065601,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2002",
+    "value": -1.11610981485492,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2001",
+    "value": -0.859343399602309,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2000",
+    "value": 2.12093116235033,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2025",
+    "value": 3.85087301927439,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2024",
+    "value": 3.87737337600316,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2023",
+    "value": 4.31345051341054,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2022",
+    "value": 3.23353445380008,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2021",
+    "value": 7.11292651598239,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2020",
+    "value": -1.07465650457316,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2019",
+    "value": 3.51848874215774,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2018",
+    "value": 4.13450320082114,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2017",
+    "value": 4.52293926104564,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2016",
+    "value": 3.74378265254836,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2015",
+    "value": 3.63319170312828,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2014",
+    "value": 4.04383478041679,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2013",
+    "value": 4.67642623030891,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2012",
+    "value": 4.79479361944487,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2011",
+    "value": 5.92806411713846,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2010",
+    "value": 7.55732098825118,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2009",
+    "value": 2.63411800350215,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2008",
+    "value": 5.35801923555455,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2007",
+    "value": 8.44336859379611,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2006",
+    "value": 7.59534286444652,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2005",
+    "value": 6.56745910811489,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2004",
+    "value": 6.88166204140228,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2003",
+    "value": 4.9714149862812,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2002",
+    "value": 3.87526446566318,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2001",
+    "value": 2.43413122916508,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2000",
+    "value": 4.86788810343309,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2025",
+    "value": 1.98760853536291,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2024",
+    "value": 1.91442962168207,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2023",
+    "value": 1.91059962837383,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2022",
+    "value": 2.546792558048,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2021",
+    "value": 5.60163318303573,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2020",
+    "value": -3.83462307658574,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2019",
+    "value": 1.6108457911462,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2018",
+    "value": 2.18116646269758,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2017",
+    "value": 2.28400839991727,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2016",
+    "value": 1.59998167249861,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2015",
+    "value": 1.91380814649989,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2014",
+    "value": 1.93208205944484,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2013",
+    "value": 1.6304618592754,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2012",
+    "value": 1.46205987690975,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2011",
+    "value": 2.06283093193251,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2010",
+    "value": 3.25642647375308,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2009",
+    "value": -2.56117125930915,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2008",
+    "value": 0.805663557268119,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2007",
+    "value": 3.12254724762356,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2006",
+    "value": 3.16918546984515,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2005",
+    "value": 2.74475812980728,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2004",
+    "value": 3.1594456277661,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2003",
+    "value": 1.75253959436247,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2002",
+    "value": 0.985885119675103,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2001",
+    "value": 0.670395205599306,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   },
+   {
+    "indicator": {
+     "id": "NY.GDP.PCAP.KD.ZG",
+     "value": "GDP per capita growth (annual %)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2000",
+    "value": 3.15082603447338,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+   }
+  ]
+ ]
+]

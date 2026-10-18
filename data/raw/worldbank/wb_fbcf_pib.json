@@ -1,0 +1,1678 @@
+[
+ [
+  {
+   "page": 1,
+   "pages": 1,
+   "per_page": 1000,
+   "total": 104,
+   "sourceid": "2",
+   "lastupdated": "2026-10-08"
+  },
+  [
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2025",
+    "value": 16.8390252318469,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2024",
+    "value": 16.9093613197373,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2023",
+    "value": 16.410975108624,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2022",
+    "value": 17.8004023928911,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2021",
+    "value": 17.9178490532598,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2020",
+    "value": 16.5610215626482,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2019",
+    "value": 15.4711697448233,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2018",
+    "value": 15.0969119555859,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2017",
+    "value": 14.5589865169328,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2016",
+    "value": 15.5243273233005,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2015",
+    "value": 17.8358070500755,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2014",
+    "value": 19.8730289050629,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2013",
+    "value": 20.9119218718301,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2012",
+    "value": 20.7167127703742,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2011",
+    "value": 20.6089642088056,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2010",
+    "value": 20.5346736513576,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2009",
+    "value": 19.1019580373901,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2008",
+    "value": 19.3853295551661,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2007",
+    "value": 17.9957613410672,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2006",
+    "value": 17.2102995750103,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2005",
+    "value": 17.0561834613227,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2004",
+    "value": 17.3202333242533,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2003",
+    "value": 16.6047591535688,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2002",
+    "value": 17.9262508238054,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2001",
+    "value": 18.4180865009209,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "BR",
+     "value": "Brazil"
+    },
+    "countryiso3code": "BRA",
+    "date": "2000",
+    "value": 18.30448803112,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2025",
+    "value": 18.652426500928,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2024",
+    "value": 18.9968077220989,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2023",
+    "value": 19.1899191544107,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2022",
+    "value": 19.5890858385238,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2021",
+    "value": 19.2764846445421,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2020",
+    "value": 17.6606668955426,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2019",
+    "value": 18.3626118529022,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2018",
+    "value": 18.4975282568623,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2017",
+    "value": 17.8844974152357,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2016",
+    "value": 18.4446405452943,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2015",
+    "value": 19.7800958323678,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2014",
+    "value": 20.3013251944422,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2013",
+    "value": 21.1292315616621,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2012",
+    "value": 20.9454984542608,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2011",
+    "value": 20.9764759961134,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2010",
+    "value": 20.13328157683,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2009",
+    "value": 19.4196578712074,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2008",
+    "value": 20.6373088042629,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2007",
+    "value": 19.8815911658041,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2006",
+    "value": 19.1524533094892,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2005",
+    "value": 18.6729201437554,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2004",
+    "value": 18.5397023895272,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2003",
+    "value": 18.2450252110574,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2002",
+    "value": 18.1553225889392,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2001",
+    "value": 18.0699813549585,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "ZJ",
+     "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2000",
+    "value": 18.9347345332449,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2024",
+    "value": 32.6536339193133,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2023",
+    "value": 33.2213673132251,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2022",
+    "value": 33.9013381906315,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2021",
+    "value": 34.4816138506128,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2020",
+    "value": 34.3842498454936,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2019",
+    "value": 34.0596094017247,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2018",
+    "value": 34.1033433589535,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2017",
+    "value": 32.8712363063989,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2016",
+    "value": 32.9488103986985,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2015",
+    "value": 33.4738289050868,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2014",
+    "value": 33.5154921222642,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2013",
+    "value": 33.3971948340949,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2012",
+    "value": 32.8628357961699,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2011",
+    "value": 32.0357595286908,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2010",
+    "value": 31.4926055525315,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2009",
+    "value": 31.4620518145825,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2008",
+    "value": 29.2773002567978,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2007",
+    "value": 27.9254827991734,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2006",
+    "value": 27.5592345484368,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2005",
+    "value": 27.1887238697256,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2004",
+    "value": 27.0672686653924,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2003",
+    "value": 25.9280526755796,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2002",
+    "value": 24.6042164866774,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2001",
+    "value": 23.59264278898,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "XT",
+     "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2000",
+    "value": 23.2111740403516,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2025",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2024",
+    "value": 25.6162431940262,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2023",
+    "value": 25.9827846634922,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2022",
+    "value": 26.1050946713799,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2021",
+    "value": 26.1733414074123,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2020",
+    "value": 26.061005790827,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2019",
+    "value": 25.954699216773,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2018",
+    "value": 25.8117092848043,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2017",
+    "value": 25.3291585646907,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2016",
+    "value": 25.0776181886573,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2015",
+    "value": 25.1638475677126,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2014",
+    "value": 24.9273561838106,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2013",
+    "value": 24.7245760116466,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2012",
+    "value": 24.5404637723858,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2011",
+    "value": 24.0691849872069,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2010",
+    "value": 23.5459570991635,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2009",
+    "value": 23.6388422484385,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2008",
+    "value": 24.4006402261908,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2007",
+    "value": 24.3847342283382,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2006",
+    "value": 24.143425955784,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2005",
+    "value": 23.7986787801478,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2004",
+    "value": 23.3371882934286,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2003",
+    "value": 22.9886972795403,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2002",
+    "value": 22.9127960271802,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2001",
+    "value": 23.5745405295346,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   },
+   {
+    "indicator": {
+     "id": "NE.GDI.FTOT.ZS",
+     "value": "Gross fixed capital formation (% of GDP)"
+    },
+    "country": {
+     "id": "1W",
+     "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2000",
+    "value": 24.0786933109291,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 0
+   }
+  ]
+ ]
+]

@@ -1,0 +1,16 @@
+{
+  "serie_id": "pib_taxa_acum_ano",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 5932,
+    "variavel": 6563,
+    "classificacoes": {
+      "11255": 90707
+    }
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6563/p/all/c11255/90707"
+  ],
+  "baixado_em": "2026-10-16T20:55:57-03:00",
+  "sha256": "8379f665a8287d7fd92a84d71b98dacc47f88fcf1e2f2a1de2897bb9d649e3db"
+}

@@ -1,0 +1,19 @@
+{
+  "serie_id": "desemprego_pme",
+  "fonte": "ipeadata",
+  "codigo": {
+    "sercodigo": "PAN12_TD12"
+  },
+  "urls": [
+    "http://www.ipeadata.gov.br/api/odata4/Metadados('PAN12_TD12')",
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PAN12_TD12')"
+  ],
+  "baixado_em": "2026-10-16T21:03:57-03:00",
+  "sha256": "369e69f779de7117baf5cff5a5de8505d307b116752d37a3b3a094813cf0febf",
+  "ipeadata_nome": "Taxa de desemprego - INATIVA",
+  "ipeadata_fonte_original": "Instituto Brasileiro de Geografia e Estatística, Pesquisa Mensal de Emprego (IBGE/PME) - obs:  PME foi encerrada em março de 2016, com a divulgação dos resultados referentes ao mês de fevereiro de 2016.",
+  "ipeadata_unidade": "(%)",
+  "ipeadata_multiplicador": null,
+  "ipeadata_atualizacao": "2016-02-02T17:12:21-02:00",
+  "ipeadata_status": "I"
+}

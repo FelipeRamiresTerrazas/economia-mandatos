@@ -1,0 +1,13 @@
+{
+  "serie_id": "wb_gini",
+  "fonte": "worldbank",
+  "codigo": {
+    "indicador": "SI.POV.GINI"
+  },
+  "urls": [
+    "https://api.worldbank.org/v2/country/BRA;LCN;UMC;WLD/indicator/SI.POV.GINI?format=json&date=2000%3A2026&per_page=1000&page=1"
+  ],
+  "baixado_em": "2026-10-16T21:01:59-03:00",
+  "sha256": "6543e8abe5f0907ba157c33d6d6367d81f8e12c7ea81387908b7fd515152a9c4",
+  "worldbank_lastupdated": "2026-10-08"
+}

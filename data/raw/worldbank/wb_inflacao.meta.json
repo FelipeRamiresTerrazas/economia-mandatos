@@ -1,0 +1,13 @@
+{
+  "serie_id": "wb_inflacao",
+  "fonte": "worldbank",
+  "codigo": {
+    "indicador": "FP.CPI.TOTL.ZG"
+  },
+  "urls": [
+    "https://api.worldbank.org/v2/country/BRA;LCN;UMC;WLD/indicator/FP.CPI.TOTL.ZG?format=json&date=2000%3A2026&per_page=1000&page=1"
+  ],
+  "baixado_em": "2026-10-16T21:01:58-03:00",
+  "sha256": "d33802892df4b7dcf0df721643dadd4379605532e8ff1b29282f8e25cc686f40",
+  "worldbank_lastupdated": "2026-10-08"
+}

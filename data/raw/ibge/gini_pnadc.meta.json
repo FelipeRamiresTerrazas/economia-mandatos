@@ -1,0 +1,13 @@
+{
+  "serie_id": "gini_pnadc",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 7435,
+    "variavel": 10681
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/7435/n1/all/v/10681/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:56:00-03:00",
+  "sha256": "2838ce56f56531ef86c32107b96e839f65db81cc80340a6d974720e9fb3a1b4a"
+}

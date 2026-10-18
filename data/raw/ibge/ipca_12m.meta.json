@@ -1,0 +1,13 @@
+{
+  "serie_id": "ipca_12m",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 1737,
+    "variavel": 2265
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:59-03:00",
+  "sha256": "909218830ece34f593e690369de4681220f3fdcb2325b32bdce5f333b1d36289"
+}

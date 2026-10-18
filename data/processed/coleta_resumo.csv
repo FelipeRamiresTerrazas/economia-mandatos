@@ -1,0 +1,49 @@
+id,fonte,codigo,status,origem,n_obs,primeira_data,ultima_data,baixado_em,erro,paises
+pib_volume_trim,ibge,"{'tabela': 1620, 'variavel': 583, 'classificacoes': {11255: 90707}}",ok,cache,122,1996-01-01,2026-04-01,2026-10-16T20:55:57-03:00,,
+pib_taxa_acum_ano,ibge,"{'tabela': 5932, 'variavel': 6563, 'classificacoes': {11255: 90707}}",ok,cache,122,1996-01-01,2026-04-01,2026-10-16T20:55:57-03:00,,
+pib_nominal_trim,ibge,"{'tabela': 1846, 'variavel': 585, 'classificacoes': {11255: 90707}}",ok,cache,122,1996-01-01,2026-04-01,2026-10-16T20:55:57-03:00,,
+pib_anual_corrente,ibge,"{'tabela': 6784, 'variavel': 9808}",ok,cache,28,1996-01-01,2023-01-01,2026-10-16T20:55:57-03:00,,
+pib_anual_var_volume,ibge,"{'tabela': 6784, 'variavel': 9810}",ok,cache,28,1996-01-01,2023-01-01,2026-10-16T20:55:57-03:00,,
+pib_pc_anual_corrente,ibge,"{'tabela': 6784, 'variavel': 9812}",ok,cache,28,1996-01-01,2023-01-01,2026-10-16T20:55:57-03:00,,
+pib_pc_anual_var_volume,ibge,"{'tabela': 6784, 'variavel': 9814}",ok,cache,28,1996-01-01,2023-01-01,2026-10-16T20:55:58-03:00,,
+populacao_contas_nacionais,ibge,"{'tabela': 6784, 'variavel': 93}",ok,cache,28,1996-01-01,2023-01-01,2026-10-16T20:55:58-03:00,,
+populacao_estimada,ibge,"{'tabela': 6579, 'variavel': 9324}",ok,cache,22,2001-01-01,2026-01-01,2026-10-16T20:55:58-03:00,,
+fbcf_pib_trim,ibge,"{'tabela': 6727, 'variavel': 2517}",ok,cache,122,1996-01-01,2026-04-01,2026-10-16T20:55:58-03:00,,
+ipca_indice,ibge,"{'tabela': 1737, 'variavel': 2266}",ok,cache,562,1979-12-01,2026-09-01,2026-10-16T20:55:58-03:00,,
+ipca_var_mensal,ibge,"{'tabela': 1737, 'variavel': 63}",ok,cache,561,1980-01-01,2026-09-01,2026-10-16T20:55:59-03:00,,
+ipca_12m,ibge,"{'tabela': 1737, 'variavel': 2265}",ok,cache,550,1980-12-01,2026-09-01,2026-10-16T20:55:59-03:00,,
+desocupacao_trim,ibge,"{'tabela': 4099, 'variavel': 4099}",ok,cache,58,2012-01-01,2026-04-01,2026-10-16T20:55:59-03:00,,
+desocupacao_movel,ibge,"{'tabela': 6381, 'variavel': 4099}",ok,cache,174,2012-03-01,2026-08-01,2026-10-16T20:55:59-03:00,,
+rendimento_real_trim,ibge,"{'tabela': 5436, 'variavel': 5933, 'classificacoes': {2: 6794}}",ok,cache,50,2012-01-01,2026-04-01,2026-10-16T20:55:59-03:00,,
+informalidade_trim,ibge,"{'tabela': 8529, 'variavel': 12466}",ok,cache,43,2015-10-01,2026-04-01,2026-10-16T20:55:59-03:00,,
+gini_pnadc,ibge,"{'tabela': 7435, 'variavel': 10681}",ok,cache,14,2012-01-01,2025-01-01,2026-10-16T20:56:00-03:00,,
+ipca_bcb_433,bcb,{'sgs': 433},ok,cache,321,2000-01-01,2026-09-01,2026-10-16T20:56:03-03:00,,
+selic_meta,bcb,{'sgs': 432},ok,cache,9786,2000-01-01,2026-10-16,2026-10-16T20:57:07-03:00,,
+selic_mes,bcb,{'sgs': 4390},ok,cache,322,2000-01-01,2026-10-01,2026-10-16T20:57:26-03:00,,
+selic_mes_anualizada,bcb,{'sgs': 4189},ok,cache,322,2000-01-01,2026-10-01,2026-10-16T20:57:31-03:00,,
+cambio_venda,bcb,{'sgs': 1},ok,cache,6728,2000-01-03,2026-10-15,2026-10-16T20:57:58-03:00,,
+reservas_caixa,bcb,{'sgs': 13621},ok,cache,6728,2000-01-03,2026-10-15,2026-10-16T20:58:37-03:00,,
+reservas_liquidez,bcb,{'sgs': 13982},ok,cache,4720,2008-01-02,2026-10-15,2026-10-16T20:58:58-03:00,,
+exportacoes_bens,bcb,{'sgs': 22708},ok,cache,320,2000-01-01,2026-08-01,2026-10-16T20:59:01-03:00,,
+importacoes_bens,bcb,{'sgs': 22709},ok,cache,320,2000-01-01,2026-08-01,2026-10-16T20:59:37-03:00,,
+balanca_comercial_saldo,bcb,{'sgs': 22707},ok,cache,320,2000-01-01,2026-08-01,2026-10-16T20:59:40-03:00,,
+nfsp_primario_12m,bcb,{'sgs': 5793},ok,cache,286,2002-11-01,2026-08-01,2026-10-16T20:59:43-03:00,,
+nfsp_nominal_12m,bcb,{'sgs': 5727},ok,cache,286,2002-11-01,2026-08-01,2026-10-16T20:59:46-03:00,,
+dbgg_metodologia_2008,bcb,{'sgs': 13762},ok,cache,237,2006-12-01,2026-08-01,2026-10-16T20:59:48-03:00,,
+dbgg_metodologia_ate_2007,bcb,{'sgs': 4537},ok,cache,296,2002-01-01,2026-08-01,2026-10-16T20:59:51-03:00,,
+dlsp,bcb,{'sgs': 4513},ok,cache,297,2001-12-01,2026-08-01,2026-10-16T20:59:54-03:00,,
+gini_longo,ipeadata,{'sercodigo': 'PNADS_GINI'},ok,cache,29,1995-01-01,2025-01-01,2026-10-16T21:03:56-03:00,,
+pobreza_830,ipeadata,{'sercodigo': 'PNADS_PERCPOBRE830'},ok,cache,29,1995-01-01,2025-01-01,2026-10-16T21:03:56-03:00,,
+extrema_pobreza_300,ipeadata,{'sercodigo': 'PNADS_PERCPOBRE300'},ok,cache,29,1995-01-01,2025-01-01,2026-10-16T21:03:56-03:00,,
+desemprego_pme,ipeadata,{'sercodigo': 'PAN12_TD12'},ok,cache,166,2002-03-01,2015-12-01,2026-10-16T21:03:57-03:00,,
+petroleo_producao,anp,{'sercodigo': 'ANP12_PDPET12'},ok,cache,572,1979-01-01,2026-08-01,2026-10-16T21:03:58-03:00,,
+wb_pib_pc_real,worldbank,{'indicador': 'NY.GDP.PCAP.KD'},ok,cache,104,2000-01-01,2025-01-01,2026-10-16T21:00:48-03:00,,"BRA,LCN,UMC,WLD"
+wb_pib_pc_ppc,worldbank,{'indicador': 'NY.GDP.PCAP.PP.KD'},ok,cache,104,2000-01-01,2025-01-01,2026-10-16T21:01:05-03:00,,"BRA,LCN,UMC,WLD"
+wb_pib_cresc,worldbank,{'indicador': 'NY.GDP.MKTP.KD.ZG'},ok,cache,104,2000-01-01,2025-01-01,2026-10-16T21:01:32-03:00,,"BRA,LCN,UMC,WLD"
+wb_pib_pc_cresc,worldbank,{'indicador': 'NY.GDP.PCAP.KD.ZG'},ok,cache,104,2000-01-01,2025-01-01,2026-10-16T21:01:53-03:00,,"BRA,LCN,UMC,WLD"
+wb_fbcf_pib,worldbank,{'indicador': 'NE.GDI.FTOT.ZS'},ok,cache,102,2000-01-01,2025-01-01,2026-10-16T21:01:58-03:00,,"BRA,LCN,UMC,WLD"
+wb_inflacao,worldbank,{'indicador': 'FP.CPI.TOTL.ZG'},ok,cache,104,2000-01-01,2025-01-01,2026-10-16T21:01:58-03:00,,"BRA,LCN,UMC,WLD"
+wb_desemprego_oit,worldbank,{'indicador': 'SL.UEM.TOTL.ZS'},ok,cache,104,2000-01-01,2025-01-01,2026-10-16T21:01:58-03:00,,"BRA,LCN,UMC,WLD"
+wb_gini,worldbank,{'indicador': 'SI.POV.GINI'},ok,cache,23,2001-01-01,2024-01-01,2026-10-16T21:01:59-03:00,,BRA
+wb_extrema_pobreza,worldbank,{'indicador': 'SI.POV.DDAY'},ok,cache,97,2000-01-01,2024-01-01,2026-10-16T21:02:00-03:00,,"BRA,LCN,UMC,WLD"
+wb_pobreza_830,worldbank,{'indicador': 'SI.POV.UMIC'},ok,cache,97,2000-01-01,2024-01-01,2026-10-16T21:02:47-03:00,,"BRA,LCN,UMC,WLD"

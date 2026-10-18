@@ -1,0 +1,232 @@
+[
+ {
+  "@odata.context": "http://ipeadata.gov.br/api/odata4/$metadata#Metadados",
+  "value": [
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "SERNOME": "Proporção de pessoas abaixo da linha de pobreza de PPC$8,30",
+    "SERCOMENTARIO": "Percentual de pessoas na população total com renda domiciliar per capita inferior à linha internacional de $8,30 por dia em paridade de poder de compra (PPC) de 2021. Série estimada com base nas respostas à antiga Pesquisa Nacional por Amostra de Domicílios (PNAD) até 2011 e, a partir de 2012, à PNAD Contínua, do Instituto Brasileiro de Geografia e Estatística (IBGE). Até 2011, todos os resultados originais obtidos diretamente da fonte foram multiplicados pelo fator que, em 2012, iguala o resultado da antiga PNAD ao da PNAD Contínua. A linha internacional usada nesta série corresponde a R$ 738 mensais per capita a preços médios de 2024. Para detalhes metodólogicos, ver: Souza e Hecksher (2025). Pobreza e desigualdade no Brasil no curto e no longo prazo.\r\n",
+    "SERATUALIZACAO": "2026-05-25T16:22:07.64-03:00",
+    "BASNOME": "Macroeconômico",
+    "FNTSIGLA": "IPEA",
+    "FNTNOME": "Instituto de Pesquisa Econômica Aplicada",
+    "FNTURL": "www.ipea.gov.br",
+    "PERNOME": "Anual",
+    "UNINOME": "(%)",
+    "MULNOME": null,
+    "SERSTATUS": "A",
+    "TEMCODIGO": 15,
+    "PAICODIGO": "BRA",
+    "SERNUMERICA": true
+   }
+  ]
+ },
+ {
+  "@odata.context": "http://ipeadata.gov.br/api/odata4/$metadata#Collection(Ipeadata.OData4.Models.Valor)",
+  "value": [
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "1995-01-01T00:00:00-02:00",
+    "VALVALOR": 61.220496,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "1996-01-01T00:00:00-02:00",
+    "VALVALOR": 60.244925,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "1997-01-01T00:00:00-02:00",
+    "VALVALOR": 60.832738,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "1998-01-01T00:00:00-02:00",
+    "VALVALOR": 60.0621,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "1999-01-01T00:00:00-02:00",
+    "VALVALOR": 61.878231,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2001-01-01T00:00:00-02:00",
+    "VALVALOR": 60.994664,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2002-01-01T00:00:00-02:00",
+    "VALVALOR": 60.803052,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2003-01-01T00:00:00-02:00",
+    "VALVALOR": 59.7658,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2004-01-01T00:00:00-02:00",
+    "VALVALOR": 58.83372,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2005-01-01T00:00:00-02:00",
+    "VALVALOR": 56.213822,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2006-01-01T00:00:00-02:00",
+    "VALVALOR": 52.427314,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2007-01-01T00:00:00-02:00",
+    "VALVALOR": 49.735273,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2008-01-01T00:00:00-02:00",
+    "VALVALOR": 46.716594,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2009-01-01T00:00:00-02:00",
+    "VALVALOR": 44.770953,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2011-01-01T00:00:00-02:00",
+    "VALVALOR": 39.92958,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2012-01-01T00:00:00-02:00",
+    "VALVALOR": 36.772943,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2013-01-01T00:00:00-02:00",
+    "VALVALOR": 34.594733,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2014-01-01T00:00:00-02:00",
+    "VALVALOR": 33.22032,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2015-01-01T00:00:00-02:00",
+    "VALVALOR": 33.943491,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2016-01-01T00:00:00-02:00",
+    "VALVALOR": 36.246189,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2017-01-01T00:00:00-02:00",
+    "VALVALOR": 36.641205,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2018-01-01T00:00:00-02:00",
+    "VALVALOR": 35.558082,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2019-01-01T00:00:00-02:00",
+    "VALVALOR": 34.634387,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2020-01-01T00:00:00-03:00",
+    "VALVALOR": 33.525142,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2021-01-01T00:00:00-03:00",
+    "VALVALOR": 38.901605,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2022-01-01T00:00:00-03:00",
+    "VALVALOR": 33.839404,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2023-01-01T00:00:00-03:00",
+    "VALVALOR": 29.959586,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2024-01-01T00:00:00-03:00",
+    "VALVALOR": 26.576318,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   },
+   {
+    "SERCODIGO": "PNADS_PERCPOBRE830",
+    "VALDATA": "2025-01-01T00:00:00-03:00",
+    "VALVALOR": 25.209449,
+    "NIVNOME": "",
+    "TERCODIGO": ""
+   }
+  ]
+ }
+]

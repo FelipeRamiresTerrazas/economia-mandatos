@@ -1,0 +1,17 @@
+{
+  "serie_id": "dbgg_metodologia_ate_2007",
+  "fonte": "bcb",
+  "codigo": {
+    "sgs": 4537
+  },
+  "urls": [
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4537/dados?formato=json&dataInicial=01%2F01%2F2000&dataFinal=31%2F12%2F2004",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4537/dados?formato=json&dataInicial=01%2F01%2F2005&dataFinal=31%2F12%2F2009",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4537/dados?formato=json&dataInicial=01%2F01%2F2010&dataFinal=31%2F12%2F2014",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4537/dados?formato=json&dataInicial=01%2F01%2F2015&dataFinal=31%2F12%2F2019",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4537/dados?formato=json&dataInicial=01%2F01%2F2020&dataFinal=31%2F12%2F2024",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4537/dados?formato=json&dataInicial=01%2F01%2F2025&dataFinal=16%2F10%2F2026"
+  ],
+  "baixado_em": "2026-10-16T20:59:51-03:00",
+  "sha256": "a721d43070d791a7ba82401ca2cc537a14376b5374df3a314f1a481ff963acd6"
+}

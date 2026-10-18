@@ -1,0 +1,13 @@
+{
+  "serie_id": "ipca_var_mensal",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 1737,
+    "variavel": 63
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/63/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:59-03:00",
+  "sha256": "82df6fbcc0c6306e41ebd342103019c9da0f0179059a63613f63b750f6221439"
+}

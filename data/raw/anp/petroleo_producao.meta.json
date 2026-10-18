@@ -1,0 +1,20 @@
+{
+  "serie_id": "petroleo_producao",
+  "fonte": "anp",
+  "codigo": {
+    "sercodigo": "ANP12_PDPET12"
+  },
+  "urls": [
+    "http://www.ipeadata.gov.br/api/odata4/Metadados('ANP12_PDPET12')",
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ANP12_PDPET12')"
+  ],
+  "baixado_em": "2026-10-16T21:03:58-03:00",
+  "sha256": "75c247489c39209fccf5a6d3c5f630dd677af196313186bd3bd090821c942c36",
+  "ipeadata_nome": "Produção - petróleo total - média - quantidade/dia",
+  "ipeadata_fonte_original": "Agência Nacional do Petróleo (ANP)",
+  "ipeadata_unidade": "Barril",
+  "ipeadata_multiplicador": "mil",
+  "ipeadata_atualizacao": "2026-10-13T10:52:03.823-03:00",
+  "ipeadata_status": "A",
+  "intermediario": "IPEADATA"
+}

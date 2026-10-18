@@ -1,0 +1,13 @@
+{
+  "serie_id": "populacao_estimada",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 6579,
+    "variavel": 9324
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/6579/n1/all/v/9324/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:58-03:00",
+  "sha256": "d3d7705f3417ddd57ca41997791813c53fd2328d52e66bc1e333c5a13f101910"
+}

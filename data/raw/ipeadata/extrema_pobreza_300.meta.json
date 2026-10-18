@@ -1,0 +1,19 @@
+{
+  "serie_id": "extrema_pobreza_300",
+  "fonte": "ipeadata",
+  "codigo": {
+    "sercodigo": "PNADS_PERCPOBRE300"
+  },
+  "urls": [
+    "http://www.ipeadata.gov.br/api/odata4/Metadados('PNADS_PERCPOBRE300')",
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PNADS_PERCPOBRE300')"
+  ],
+  "baixado_em": "2026-10-16T21:03:56-03:00",
+  "sha256": "7f68c4bcd9248dee31ea2abbc50bb4ee9bbfba9c809a1bbfaec95667d8de47c9",
+  "ipeadata_nome": "Proporção de pessoas abaixo da linha de pobreza de PPC$3,00",
+  "ipeadata_fonte_original": "Instituto de Pesquisa Econômica Aplicada",
+  "ipeadata_unidade": "(%)",
+  "ipeadata_multiplicador": null,
+  "ipeadata_atualizacao": "2026-05-25T16:22:07.64-03:00",
+  "ipeadata_status": "A"
+}

@@ -1,0 +1,13 @@
+{
+  "serie_id": "wb_pib_pc_ppc",
+  "fonte": "worldbank",
+  "codigo": {
+    "indicador": "NY.GDP.PCAP.PP.KD"
+  },
+  "urls": [
+    "https://api.worldbank.org/v2/country/BRA;LCN;UMC;WLD/indicator/NY.GDP.PCAP.PP.KD?format=json&date=2000%3A2026&per_page=1000&page=1"
+  ],
+  "baixado_em": "2026-10-16T21:01:05-03:00",
+  "sha256": "e028d1a175c77ee68a563f03344de5777da45fe0089d3cc117e33ce4a5bf633f",
+  "worldbank_lastupdated": "2026-10-08"
+}

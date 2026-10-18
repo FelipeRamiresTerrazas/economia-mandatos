@@ -1,0 +1,13 @@
+{
+  "serie_id": "desocupacao_movel",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 6381,
+    "variavel": 4099
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:59-03:00",
+  "sha256": "a9b74a3d0c88f31302a2665533909d9efc11b910050b148c423a5b51ce1031db"
+}

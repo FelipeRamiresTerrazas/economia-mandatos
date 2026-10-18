@@ -1,0 +1,19 @@
+{
+  "serie_id": "gini_longo",
+  "fonte": "ipeadata",
+  "codigo": {
+    "sercodigo": "PNADS_GINI"
+  },
+  "urls": [
+    "http://www.ipeadata.gov.br/api/odata4/Metadados('PNADS_GINI')",
+    "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='PNADS_GINI')"
+  ],
+  "baixado_em": "2026-10-16T21:03:56-03:00",
+  "sha256": "4fcbd82163e695b4345c9251e2e0e94e1a6e7cea9cc5d183de64b81775026d64",
+  "ipeadata_nome": "Coeficiente de Gini da renda domiciliar per capita de todas as fontes",
+  "ipeadata_fonte_original": "Instituto de Pesquisa Econômica Aplicada",
+  "ipeadata_unidade": "-",
+  "ipeadata_multiplicador": null,
+  "ipeadata_atualizacao": "2026-05-25T16:22:07.64-03:00",
+  "ipeadata_status": "A"
+}

@@ -1,0 +1,13 @@
+{
+  "serie_id": "pib_anual_var_volume",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 6784,
+    "variavel": 9810
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/6784/n1/all/v/9810/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:57-03:00",
+  "sha256": "737d87d6b04d2d02ad0940e6257f6210809a87b274acd3147dcfb44c1d607858"
+}

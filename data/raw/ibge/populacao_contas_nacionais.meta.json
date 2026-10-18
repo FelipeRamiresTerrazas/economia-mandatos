@@ -1,0 +1,13 @@
+{
+  "serie_id": "populacao_contas_nacionais",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 6784,
+    "variavel": 93
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/6784/n1/all/v/93/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:58-03:00",
+  "sha256": "dff1d3de1ee61cafa54c1d686afaee1ba68dfef5e22c518377da93f4eabb9b03"
+}

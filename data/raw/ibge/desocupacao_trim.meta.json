@@ -1,0 +1,13 @@
+{
+  "serie_id": "desocupacao_trim",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 4099,
+    "variavel": 4099
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/4099/n1/all/v/4099/p/all"
+  ],
+  "baixado_em": "2026-10-16T20:55:59-03:00",
+  "sha256": "78be3e4de7c41cb7fd6fb77f9251e04df7cb4f68c8962bcf619d3481dbc4cf92"
+}

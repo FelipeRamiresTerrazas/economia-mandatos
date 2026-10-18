@@ -1,0 +1,16 @@
+{
+  "serie_id": "rendimento_real_trim",
+  "fonte": "ibge",
+  "codigo": {
+    "tabela": 5436,
+    "variavel": 5933,
+    "classificacoes": {
+      "2": 6794
+    }
+  },
+  "urls": [
+    "https://apisidra.ibge.gov.br/values/t/5436/n1/all/v/5933/p/all/c2/6794"
+  ],
+  "baixado_em": "2026-10-16T20:55:59-03:00",
+  "sha256": "47a7526eb643349a2d0b97a5c4a4bd3ae2f338ea3205e82f510ae4f3a028ab01"
+}

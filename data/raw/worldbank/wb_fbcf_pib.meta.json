@@ -1,0 +1,13 @@
+{
+  "serie_id": "wb_fbcf_pib",
+  "fonte": "worldbank",
+  "codigo": {
+    "indicador": "NE.GDI.FTOT.ZS"
+  },
+  "urls": [
+    "https://api.worldbank.org/v2/country/BRA;LCN;UMC;WLD/indicator/NE.GDI.FTOT.ZS?format=json&date=2000%3A2026&per_page=1000&page=1"
+  ],
+  "baixado_em": "2026-10-16T21:01:58-03:00",
+  "sha256": "7250a1dab04586efb300180e99b9db271f44e68b395fb06322cb2ec3c87e4ce6",
+  "worldbank_lastupdated": "2026-10-08"
+}

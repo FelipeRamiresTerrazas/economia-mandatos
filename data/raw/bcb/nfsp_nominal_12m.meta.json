@@ -1,0 +1,17 @@
+{
+  "serie_id": "nfsp_nominal_12m",
+  "fonte": "bcb",
+  "codigo": {
+    "sgs": 5727
+  },
+  "urls": [
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json&dataInicial=01%2F01%2F2000&dataFinal=31%2F12%2F2004",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json&dataInicial=01%2F01%2F2005&dataFinal=31%2F12%2F2009",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json&dataInicial=01%2F01%2F2010&dataFinal=31%2F12%2F2014",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json&dataInicial=01%2F01%2F2015&dataFinal=31%2F12%2F2019",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json&dataInicial=01%2F01%2F2020&dataFinal=31%2F12%2F2024",
+    "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5727/dados?formato=json&dataInicial=01%2F01%2F2025&dataFinal=16%2F10%2F2026"
+  ],
+  "baixado_em": "2026-10-16T20:59:46-03:00",
+  "sha256": "ed70c6a697fce76ac739537b4ad72acb9dff25be40c0bdc3a78bf5e3b2d29dd2"
+}
