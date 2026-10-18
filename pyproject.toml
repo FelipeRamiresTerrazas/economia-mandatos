@@ -3,6 +3,7 @@ name = "economia-mandatos"
 version = "0.1.0"
 description = "Indicadores econômicos do Brasil por mandato presidencial, a partir de dados oficiais"
 requires-python = ">=3.11"
+license = { text = "MIT" }
 dependencies = [
     "pandas>=2.2",
     "requests>=2.31",
