@@ -1,0 +1,2 @@
+# Respostas brutas das APIs: guardadas byte a byte (o SHA-256 em <id>.meta.json depende disso)
+data/raw/** -text
