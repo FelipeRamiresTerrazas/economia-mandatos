@@ -1,0 +1,340 @@
+# Indicadores do relatório. Definidos antes de olhar os resultados e aplicados com a mesma fórmula
+# a todos os períodos de config/periodos.yaml. Nenhum indicador é escolhido por período.
+#
+# derivadas    séries calculadas a partir das coletadas (src/tratamento), gravadas em
+#              data/processed/derivadas/<id>.csv
+#   tipos      fim_de_ano     valor do último período de cada ano completo (dez. ou 4º tri.)
+#              media_mensal   média mensal de série diária
+#              fim_de_mes     último valor de cada mês de série diária
+#              media_movel    média móvel de `janela` períodos completos
+#              juro_real_12m  juro acumulado em 12 meses descontado do IPCA em 12 meses (ex-post)
+#              deflacionar    valor a preços médios do ano-base (periodos.yaml) pelo `deflator`
+#              escala         só aplica `fator`
+#   fator      multiplicador opcional aplicado ao resultado (ex.: -1 para inverter sinal)
+#
+# indicadores  uma linha por indicador do relatório (src/analise)
+#   metrica    media             média simples das observações do período
+#              media_geometrica  média geométrica de taxas anuais em %
+#              acumulado         variação composta de taxas em % ao longo do período
+#              inicio_fim        último valor antes do início vs último valor dentro do período
+#              variacao_pct      o mesmo par início/fim, como variação percentual
+#   quebra     datas de quebra metodológica: cálculo que atravesse uma delas fica indisponível
+#   grafico    série desenhada no gráfico (padrão: a própria `serie`)
+#
+# pares        indicadores do Banco Mundial calculados para Brasil e pares com a mesma métrica
+
+derivadas:
+  - id: pib_cresc_anual
+    nome: Crescimento anual do PIB (taxa acumulada no ano até o 4º trimestre)
+    tipo: fim_de_ano
+    origem: pib_taxa_acum_ano
+    unidade: '%'
+
+  - id: pib_pc_real
+    nome: PIB per capita real (deflacionado pelo IPCA)
+    tipo: deflacionar
+    origem: pib_pc_anual_corrente
+    deflator: ipca_indice
+    unidade: R$ a preços médios do ano-base
+
+  - id: ipca_anual
+    nome: IPCA acumulado no ano (dezembro contra dezembro)
+    tipo: fim_de_ano
+    origem: ipca_12m
+    unidade: '%'
+
+  - id: selic_real_12m
+    nome: Selic real ex-post em 12 meses (Selic acumulada descontada do IPCA)
+    tipo: juro_real_12m
+    origem: selic_mes
+    deflator: ipca_var_mensal
+    unidade: '%'
+
+  - id: primario_anual
+    nome: Resultado primário do setor público consolidado no ano (positivo = superávit)
+    tipo: fim_de_ano
+    origem: nfsp_primario_12m
+    fator: -1
+    unidade: '% do PIB'
+
+  - id: nominal_anual
+    nome: Resultado nominal do setor público consolidado no ano (positivo = superávit)
+    tipo: fim_de_ano
+    origem: nfsp_nominal_12m
+    fator: -1
+    unidade: '% do PIB'
+
+  - id: cambio_mensal
+    nome: Câmbio R$/US$ - média mensal da cotação de venda
+    tipo: media_mensal
+    origem: cambio_venda
+    unidade: R$/US$
+
+  - id: reservas_mensal
+    nome: Reservas internacionais (conceito caixa) - fim de mês
+    tipo: fim_de_mes
+    origem: reservas_caixa
+    fator: 0.001
+    unidade: US$ bilhões
+
+  - id: balanca_mensal
+    nome: Saldo da balança comercial de bens (BPM6) - mensal
+    tipo: escala
+    origem: balanca_comercial_saldo
+    fator: 0.001
+    unidade: US$ bilhões
+
+  - id: petroleo_12m
+    nome: Produção de petróleo - média móvel de 12 meses
+    tipo: media_movel
+    janela: 12
+    origem: petroleo_producao
+    unidade: mil barris/dia
+
+indicadores:
+  # ------------------------------------------------------------------ Atividade
+  - id: pib_crescimento
+    secao: Atividade e investimento
+    nome: Crescimento médio anual do PIB
+    serie: pib_cresc_anual
+    metrica: media_geometrica
+    unidade: '% a.a.'
+    nota: Média geométrica das taxas anuais dos anos completos do período.
+
+  - id: pib_pc_crescimento
+    secao: Atividade e investimento
+    nome: Crescimento médio anual do PIB per capita
+    serie: wb_pib_pc_cresc
+    pais: BRA
+    metrica: media_geometrica
+    unidade: '% a.a.'
+    nota: >
+      Fonte Banco Mundial, a mesma usada na comparação com pares. As Contas Nacionais Anuais do IBGE
+      com PIB per capita vão até 2023.
+
+  - id: pib_pc_real
+    secao: Atividade e investimento
+    nome: PIB per capita real (R$ do ano-base)
+    serie: pib_pc_real
+    metrica: variacao_pct
+    unidade: R$
+    casas: 0
+    nota: >
+      PIB per capita das Contas Nacionais Anuais a preços correntes, deflacionado pelo IPCA médio do
+      ano. Variação entre o ano anterior ao período e o último ano do período. Contas anuais vão até 2023.
+
+  - id: fbcf
+    secao: Atividade e investimento
+    nome: Taxa de investimento (FBCF/PIB) média
+    serie: fbcf_pib_trim
+    metrica: media
+    unidade: '% do PIB'
+    nota: Média dos trimestres do período.
+
+  # ------------------------------------------------------------------ Preços e juros
+  - id: ipca_media_anual
+    secao: Preços e juros
+    nome: Inflação (IPCA) média anual
+    serie: ipca_anual
+    metrica: media
+    unidade: '% a.a.'
+    grafico: ipca_12m
+    nota: Média do IPCA de dezembro a dezembro nos anos completos do período.
+
+  - id: ipca_acumulado
+    secao: Preços e juros
+    nome: Inflação (IPCA) acumulada no período
+    serie: ipca_var_mensal
+    metrica: acumulado
+    unidade: '%'
+    grafico: ipca_12m
+    nota: Variação composta mês a mês. No mandato em curso, acumulado até o último mês divulgado.
+
+  - id: selic_real
+    secao: Preços e juros
+    nome: Selic real ex-post média
+    serie: selic_real_12m
+    metrica: media
+    unidade: '% a.a.'
+    nota: Média dos meses do período da Selic acumulada em 12 meses descontada do IPCA em 12 meses.
+
+  # ------------------------------------------------------------------ Trabalho
+  - id: desocupacao
+    secao: Trabalho e renda
+    nome: Taxa de desocupação (PNAD Contínua)
+    serie: desocupacao_movel
+    metrica: inicio_fim
+    unidade: '%'
+    nota: Trimestre móvel terminado no mês anterior ao início e no último mês do período.
+
+  - id: rendimento_real
+    secao: Trabalho e renda
+    nome: Rendimento médio real habitual
+    serie: rendimento_real_trim
+    metrica: variacao_pct
+    unidade: R$
+    casas: 0
+    nota: Valores deflacionados pelo próprio IBGE para o trimestre mais recente divulgado.
+
+  - id: informalidade
+    secao: Trabalho e renda
+    nome: Taxa de informalidade (PNAD Contínua)
+    serie: informalidade_trim
+    metrica: inicio_fim
+    unidade: '%'
+
+  # ------------------------------------------------------------------ Fiscal
+  - id: primario
+    secao: Contas públicas
+    nome: Resultado primário médio anual
+    serie: primario_anual
+    metrica: media
+    unidade: '% do PIB'
+    nota: Setor público consolidado, sem desvalorização cambial. Positivo = superávit.
+
+  - id: nominal
+    secao: Contas públicas
+    nome: Resultado nominal médio anual
+    serie: nominal_anual
+    metrica: media
+    unidade: '% do PIB'
+    nota: Inclui juros. Positivo = superávit.
+
+  - id: dbgg_2008
+    secao: Contas públicas
+    nome: Dívida bruta do governo geral - metodologia de 2008
+    serie: dbgg_metodologia_2008
+    metrica: inicio_fim
+    unidade: '% do PIB'
+    nota: Série começa em dez/2006; não é emendada à metodologia anterior.
+
+  - id: dbgg_ate_2007
+    secao: Contas públicas
+    nome: Dívida bruta do governo geral - metodologia até 2007
+    serie: dbgg_metodologia_ate_2007
+    metrica: inicio_fim
+    unidade: '% do PIB'
+    nota: Metodologia única para todos os períodos; inclui títulos do Tesouro na carteira do BCB.
+
+  - id: dlsp
+    secao: Contas públicas
+    nome: Dívida líquida do setor público
+    serie: dlsp
+    metrica: inicio_fim
+    unidade: '% do PIB'
+
+  # ------------------------------------------------------------------ Externo
+  - id: cambio
+    secao: Setor externo
+    nome: Câmbio R$/US$ (média mensal)
+    serie: cambio_mensal
+    metrica: variacao_pct
+    unidade: R$/US$
+    casas: 2
+    nota: Média do mês anterior ao início contra a média do último mês completo do período. Valor nominal.
+
+  - id: reservas
+    secao: Setor externo
+    nome: Reservas internacionais (conceito caixa)
+    serie: reservas_mensal
+    metrica: inicio_fim
+    unidade: US$ bi
+    casas: 0
+    nota: Valor nominal em dólares.
+
+  - id: balanca
+    secao: Setor externo
+    nome: Saldo médio mensal da balança comercial de bens
+    serie: balanca_mensal
+    metrica: media
+    unidade: US$ bi/mês
+    casas: 2
+    nota: Média dos saldos mensais do período, em dólares correntes.
+
+  # ------------------------------------------------------------------ Distribuição
+  - id: gini
+    secao: Pobreza e desigualdade
+    nome: Índice de Gini da renda domiciliar per capita
+    serie: gini_longo
+    metrica: inicio_fim
+    unidade: '(0-100)'
+    quebra: [2012-01-01]
+    nota: Troca da PNAD pela PNAD Contínua em 2012; comparações que atravessam a troca ficam indisponíveis.
+
+  - id: pobreza
+    secao: Pobreza e desigualdade
+    nome: População abaixo de US$ 8,30/dia (PPC 2021)
+    serie: pobreza_830
+    metrica: inicio_fim
+    unidade: '% da pop.'
+    quebra: [2012-01-01]
+
+  - id: extrema_pobreza
+    secao: Pobreza e desigualdade
+    nome: População abaixo de US$ 3,00/dia (PPC 2021)
+    serie: extrema_pobreza_300
+    metrica: inicio_fim
+    unidade: '% da pop.'
+    quebra: [2012-01-01]
+
+  # ------------------------------------------------------------------ Energia
+  - id: petroleo
+    secao: Energia
+    nome: Produção de petróleo (média de 12 meses)
+    serie: petroleo_12m
+    metrica: variacao_pct
+    unidade: mil b/d
+    casas: 0
+    nota: >
+      Projetos de petróleo levam muitos anos entre descoberta e produção; a produção de um mandato
+      reflete decisões de mandatos anteriores.
+
+pares:
+  - id: pares_pib_cresc
+    nome: Crescimento médio anual do PIB
+    serie: wb_pib_cresc
+    metrica: media_geometrica
+    unidade: '% a.a.'
+
+  - id: pares_pib_pc_cresc
+    nome: Crescimento médio anual do PIB per capita
+    serie: wb_pib_pc_cresc
+    metrica: media_geometrica
+    unidade: '% a.a.'
+
+  - id: pares_pib_pc_ppc
+    nome: PIB per capita em PPC (US$ internacionais de 2021)
+    serie: wb_pib_pc_ppc
+    metrica: variacao_pct
+    unidade: US$ PPC
+    casas: 0
+
+  - id: pares_inflacao
+    nome: Inflação ao consumidor média anual
+    serie: wb_inflacao
+    metrica: media
+    unidade: '% a.a.'
+
+  - id: pares_fbcf
+    nome: Formação bruta de capital fixo média
+    serie: wb_fbcf_pib
+    metrica: media
+    unidade: '% do PIB'
+
+  - id: pares_desemprego
+    nome: Desemprego (estimativa modelada OIT)
+    serie: wb_desemprego_oit
+    metrica: inicio_fim
+    unidade: '%'
+
+  - id: pares_extrema_pobreza
+    nome: Pobreza a US$ 3,00/dia (PPC 2021)
+    serie: wb_extrema_pobreza
+    metrica: inicio_fim
+    unidade: '% da pop.'
+
+  - id: pares_pobreza_830
+    nome: Pobreza a US$ 8,30/dia (PPC 2021)
+    serie: wb_pobreza_830
+    metrica: inicio_fim
+    unidade: '% da pop.'
