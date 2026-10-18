@@ -1,0 +1,528 @@
+# Catálogo de séries. Só entram códigos confirmados nas APIs (nome conferido nos metadados oficiais
+# e dados retornados). Data da confirmação em `confirmado_em`.
+#
+# Campos:
+#   id          identificador interno (nome do arquivo em data/raw e data/processed/series)
+#   coletor     módulo em src/coleta (ibge, bcb, ipeadata, worldbank, anp)
+#   codigo      parâmetros da API da fonte
+#   unidade, frequencia, dimensao, inicio_cobertura (observado na confirmação)
+#   observacoes ressalvas metodológicas que vão para o relatório
+
+padroes:
+  inicio_coleta: 2000-01-01       # coleta desde 2000 para ter o ano anterior a Lula 1 (2002)
+  worldbank_paises: [BRA, LCN, UMC, WLD]
+  worldbank_nomes:
+    BRA: Brasil
+    LCN: América Latina e Caribe
+    UMC: Renda média-alta
+    WLD: Mundo
+
+series:
+  # ------------------------------------------------------------------ IBGE / SIDRA
+  - id: pib_volume_trim
+    nome: PIB - índice de volume trimestral encadeado (média 1995 = 100)
+    coletor: ibge
+    codigo: {tabela: 1620, variavel: 583, classificacoes: {11255: 90707}}
+    unidade: número-índice
+    frequencia: trimestral
+    dimensao: atividade
+    inicio_cobertura: 1996T1
+    confirmado_em: 2026-10-16
+    observacoes: Sem ajuste sazonal. Base para o crescimento anual a partir de 2024 (contas anuais vão até 2023). Últimos trimestres sujeitos a revisão.
+
+  - id: pib_taxa_acum_ano
+    nome: PIB - taxa acumulada ao longo do ano (vs mesmo período do ano anterior)
+    coletor: ibge
+    codigo: {tabela: 5932, variavel: 6563, classificacoes: {11255: 90707}}
+    unidade: '%'
+    frequencia: trimestral
+    dimensao: atividade
+    inicio_cobertura: 1996T1
+    confirmado_em: 2026-10-16
+    observacoes: No 4º trimestre equivale ao crescimento anual. Usada para conferência do cálculo a partir do índice de volume.
+
+  - id: pib_nominal_trim
+    nome: PIB a preços correntes - trimestral
+    coletor: ibge
+    codigo: {tabela: 1846, variavel: 585, classificacoes: {11255: 90707}}
+    unidade: R$ milhões
+    frequencia: trimestral
+    dimensao: atividade
+    inicio_cobertura: 1996T1
+    confirmado_em: 2026-10-16
+
+  - id: pib_anual_corrente
+    nome: PIB anual a preços correntes (Contas Nacionais Anuais)
+    coletor: ibge
+    codigo: {tabela: 6784, variavel: 9808}
+    unidade: R$ milhões
+    frequencia: anual
+    dimensao: atividade
+    inicio_cobertura: '1996'
+    confirmado_em: 2026-10-16
+    observacoes: Contas anuais definitivas disponíveis até 2023.
+
+  - id: pib_anual_var_volume
+    nome: PIB anual - variação em volume
+    coletor: ibge
+    codigo: {tabela: 6784, variavel: 9810}
+    unidade: '%'
+    frequencia: anual
+    dimensao: atividade
+    inicio_cobertura: '1996'
+    confirmado_em: 2026-10-16
+
+  - id: pib_pc_anual_corrente
+    nome: PIB per capita anual a preços correntes
+    coletor: ibge
+    codigo: {tabela: 6784, variavel: 9812}
+    unidade: R$
+    frequencia: anual
+    dimensao: atividade
+    inicio_cobertura: '1996'
+    confirmado_em: 2026-10-16
+
+  - id: pib_pc_anual_var_volume
+    nome: PIB per capita anual - variação em volume
+    coletor: ibge
+    codigo: {tabela: 6784, variavel: 9814}
+    unidade: '%'
+    frequencia: anual
+    dimensao: atividade
+    inicio_cobertura: '1996'
+    confirmado_em: 2026-10-16
+
+  - id: populacao_contas_nacionais
+    nome: População residente usada nas Contas Nacionais Anuais
+    coletor: ibge
+    codigo: {tabela: 6784, variavel: 93}
+    unidade: mil pessoas
+    frequencia: anual
+    dimensao: populacao
+    inicio_cobertura: '1996'
+    confirmado_em: 2026-10-16
+
+  - id: populacao_estimada
+    nome: População residente estimada
+    coletor: ibge
+    codigo: {tabela: 6579, variavel: 9324}
+    unidade: pessoas
+    frequencia: anual
+    dimensao: populacao
+    inicio_cobertura: '2001'
+    confirmado_em: 2026-10-16
+    observacoes: >
+      Sem estimativa em 2007, 2010, 2022 e 2023 (anos de contagem/censo). Estimativas posteriores ao
+      Censo 2022 têm nível diferente das anteriores (2021 = 213,3 mi; 2024 = 212,6 mi). Afeta séries per capita.
+
+  - id: fbcf_pib_trim
+    nome: Taxa de investimento (FBCF / PIB)
+    coletor: ibge
+    codigo: {tabela: 6727, variavel: 2517}
+    unidade: '% do PIB'
+    frequencia: trimestral
+    dimensao: investimento
+    inicio_cobertura: 1996T1
+    confirmado_em: 2026-10-16
+
+  - id: ipca_indice
+    nome: IPCA - número-índice (dez/1993 = 100)
+    coletor: ibge
+    codigo: {tabela: 1737, variavel: 2266}
+    unidade: número-índice
+    frequencia: mensal
+    dimensao: precos
+    inicio_cobertura: 1979-12
+    confirmado_em: 2026-10-16
+    observacoes: Deflator de todos os valores monetários.
+
+  - id: ipca_var_mensal
+    nome: IPCA - variação mensal
+    coletor: ibge
+    codigo: {tabela: 1737, variavel: 63}
+    unidade: '%'
+    frequencia: mensal
+    dimensao: precos
+    inicio_cobertura: 1979-12
+    confirmado_em: 2026-10-16
+
+  - id: ipca_12m
+    nome: IPCA - variação acumulada em 12 meses
+    coletor: ibge
+    codigo: {tabela: 1737, variavel: 2265}
+    unidade: '%'
+    frequencia: mensal
+    dimensao: precos
+    inicio_cobertura: 1979-12
+    confirmado_em: 2026-10-16
+
+  - id: desocupacao_trim
+    nome: Taxa de desocupação (PNAD Contínua, trimestre civil)
+    coletor: ibge
+    codigo: {tabela: 4099, variavel: 4099}
+    unidade: '%'
+    frequencia: trimestral
+    dimensao: trabalho
+    inicio_cobertura: 2012T1
+    confirmado_em: 2026-10-16
+    observacoes: PNAD Contínua começa em 2012; indisponível para Lula 1, Lula 2 e 2011.
+
+  - id: desocupacao_movel
+    nome: Taxa de desocupação (PNAD Contínua, trimestre móvel)
+    coletor: ibge
+    codigo: {tabela: 6381, variavel: 4099}
+    unidade: '%'
+    frequencia: trimestral_movel
+    dimensao: trabalho
+    inicio_cobertura: 2012-03
+    confirmado_em: 2026-10-16
+    observacoes: Data = último mês do trimestre móvel. Usada para os subperíodos de 2016 e para o dado mais recente.
+
+  - id: rendimento_real_trim
+    nome: Rendimento médio mensal real habitual de todos os trabalhos (PNAD Contínua)
+    coletor: ibge
+    codigo: {tabela: 5436, variavel: 5933, classificacoes: {2: 6794}}
+    unidade: R$ (a preços do último trimestre divulgado)
+    frequencia: trimestral
+    dimensao: trabalho
+    inicio_cobertura: 2012T1
+    confirmado_em: 2026-10-16
+    observacoes: O IBGE já deflaciona a série para o trimestre mais recente; a cada divulgação o nível de toda a série muda.
+
+  - id: informalidade_trim
+    nome: Taxa de informalidade (PNAD Contínua)
+    coletor: ibge
+    codigo: {tabela: 8529, variavel: 12466}
+    unidade: '%'
+    frequencia: trimestral
+    dimensao: trabalho
+    inicio_cobertura: 2015T4
+    confirmado_em: 2026-10-16
+    observacoes: Começa em 2015T4; indisponível antes disso.
+
+  - id: gini_pnadc
+    nome: Índice de Gini do rendimento domiciliar per capita (PNAD Contínua)
+    coletor: ibge
+    codigo: {tabela: 7435, variavel: 10681}
+    unidade: índice (0-1)
+    frequencia: anual
+    dimensao: distribuicao
+    inicio_cobertura: '2012'
+    confirmado_em: 2026-10-16
+    observacoes: Usada para conferir a série longa do IPEADATA no trecho 2012+.
+
+  # ------------------------------------------------------------------ BCB / SGS
+  - id: ipca_bcb_433
+    nome: IPCA - variação mensal (cópia no SGS)
+    coletor: bcb
+    codigo: {sgs: 433}
+    unidade: '%'
+    frequencia: mensal
+    dimensao: precos
+    inicio_cobertura: 1980-01
+    confirmado_em: 2026-10-16
+    observacoes: Só para conferência contra o SIDRA. Nome não localizado no catálogo de dados abertos do BCB; valores conferem com o IPCA.
+
+  - id: selic_meta
+    nome: Meta Selic definida pelo Copom
+    coletor: bcb
+    codigo: {sgs: 432}
+    unidade: '% a.a.'
+    frequencia: diaria
+    dimensao: precos
+    inicio_cobertura: 1999-03
+    confirmado_em: 2026-10-16
+    observacoes: A API devolve datas futuras (meta vigente até a próxima reunião); valores após a data de download são descartados.
+
+  - id: selic_mes
+    nome: Taxa Selic acumulada no mês
+    coletor: bcb
+    codigo: {sgs: 4390}
+    unidade: '% a.m.'
+    frequencia: mensal
+    dimensao: precos
+    inicio_cobertura: 1986-07
+    confirmado_em: 2026-10-16
+    observacoes: Base da Selic real ex-post (acumulada em 12 meses contra IPCA em 12 meses).
+
+  - id: selic_mes_anualizada
+    nome: Taxa Selic acumulada no mês anualizada (base 252)
+    coletor: bcb
+    codigo: {sgs: 4189}
+    unidade: '% a.a.'
+    frequencia: mensal
+    dimensao: precos
+    inicio_cobertura: 1986-07
+    confirmado_em: 2026-10-16
+
+  - id: cambio_venda
+    nome: Taxa de câmbio livre - dólar americano (venda) - diário
+    coletor: bcb
+    codigo: {sgs: 1}
+    unidade: R$/US$
+    frequencia: diaria
+    dimensao: externo
+    inicio_cobertura: 1984-11
+    confirmado_em: 2026-10-16
+    observacoes: Médias mensais e anuais calculadas pelo código a partir da série diária.
+
+  - id: reservas_caixa
+    nome: Reservas internacionais - conceito caixa - total - diária
+    coletor: bcb
+    codigo: {sgs: 13621}
+    unidade: US$ milhões
+    frequencia: diaria
+    dimensao: externo
+    inicio_cobertura: 2000-01 (coleta começa em 2000)
+    confirmado_em: 2026-10-16
+
+  - id: reservas_liquidez
+    nome: Reservas internacionais - conceito liquidez - total - diária
+    coletor: bcb
+    codigo: {sgs: 13982}
+    unidade: US$ milhões
+    frequencia: diaria
+    dimensao: externo
+    inicio_cobertura: 2008-01
+    confirmado_em: 2026-10-16
+    observacoes: Começa em 2008; para Lula 1 e 2 usar o conceito caixa.
+
+  - id: exportacoes_bens
+    nome: Exportação de bens - Balanço de Pagamentos (BPM6) - mensal
+    coletor: bcb
+    codigo: {sgs: 22708}
+    unidade: US$ milhões
+    frequencia: mensal
+    dimensao: externo
+    inicio_cobertura: 1995-01
+    confirmado_em: 2026-10-16
+
+  - id: importacoes_bens
+    nome: Importação de bens - Balanço de Pagamentos (BPM6) - mensal
+    coletor: bcb
+    codigo: {sgs: 22709}
+    unidade: US$ milhões
+    frequencia: mensal
+    dimensao: externo
+    inicio_cobertura: 1995-01
+    confirmado_em: 2026-10-16
+
+  - id: balanca_comercial_saldo
+    nome: Balança comercial - Balanço de Pagamentos (BPM6) - saldo mensal
+    coletor: bcb
+    codigo: {sgs: 22707}
+    unidade: US$ milhões
+    frequencia: mensal
+    dimensao: externo
+    inicio_cobertura: 1995-01
+    confirmado_em: 2026-10-16
+    observacoes: Confere com exportações (22708) menos importações (22709).
+
+  - id: nfsp_primario_12m
+    nome: NFSP sem desvalorização cambial - resultado primário - 12 meses - setor público consolidado
+    coletor: bcb
+    codigo: {sgs: 5793}
+    unidade: '% do PIB'
+    frequencia: mensal
+    dimensao: fiscal
+    inicio_cobertura: 2002-11
+    confirmado_em: 2026-10-16
+    observacoes: Convenção NFSP - positivo = déficit. O tratamento inverte o sinal para "resultado primário" (positivo = superávit).
+
+  - id: nfsp_nominal_12m
+    nome: NFSP sem desvalorização cambial - resultado nominal - 12 meses - setor público consolidado
+    coletor: bcb
+    codigo: {sgs: 5727}
+    unidade: '% do PIB'
+    frequencia: mensal
+    dimensao: fiscal
+    inicio_cobertura: 2002-11
+    confirmado_em: 2026-10-16
+    observacoes: Convenção NFSP - positivo = déficit. O tratamento inverte o sinal.
+
+  - id: dbgg_metodologia_2008
+    nome: Dívida bruta do governo geral (% PIB) - metodologia a partir de 2008
+    coletor: bcb
+    codigo: {sgs: 13762}
+    unidade: '% do PIB'
+    frequencia: mensal
+    dimensao: fiscal
+    inicio_cobertura: 2006-12
+    confirmado_em: 2026-10-16
+    observacoes: Não é emendada à metodologia anterior (quebra de nível de cerca de 10 p.p. em dez/2006).
+
+  - id: dbgg_metodologia_ate_2007
+    nome: Dívida bruta do governo geral (% PIB) - metodologia utilizada até 2007
+    coletor: bcb
+    codigo: {sgs: 4537}
+    unidade: '% do PIB'
+    frequencia: mensal
+    dimensao: fiscal
+    inicio_cobertura: 2001-12
+    confirmado_em: 2026-10-16
+    observacoes: >
+      Continua publicada pelo BCB (dados até 2026), o que permite uma série de dívida bruta com
+      metodologia única para todos os mandatos. Nível mais alto que a metodologia 2008 porque inclui
+      títulos do Tesouro na carteira do BCB.
+
+  - id: dlsp
+    nome: Dívida líquida do setor público (% PIB) - total - setor público consolidado
+    coletor: bcb
+    codigo: {sgs: 4513}
+    unidade: '% do PIB'
+    frequencia: mensal
+    dimensao: fiscal
+    inicio_cobertura: 2001-12
+    confirmado_em: 2026-10-16
+    observacoes: Série contínua em todo o período; apoio para a dívida bruta.
+
+  # ------------------------------------------------------------------ IPEADATA
+  - id: gini_longo
+    nome: Coeficiente de Gini da renda domiciliar per capita (PNAD até 2011, PNAD Contínua desde 2012)
+    coletor: ipeadata
+    codigo: {sercodigo: PNADS_GINI}
+    unidade: índice (0-100)
+    frequencia: anual
+    dimensao: distribuicao
+    inicio_cobertura: '1995'
+    confirmado_em: 2026-10-16
+    observacoes: Troca de pesquisa em 2012. Sem dados em 2000 e 2010 (anos de Censo). Escala 0-100.
+
+  - id: pobreza_830
+    nome: Pessoas abaixo de US$ 8,30/dia (PPC 2021)
+    coletor: ipeadata
+    codigo: {sercodigo: PNADS_PERCPOBRE830}
+    unidade: '% da população'
+    frequencia: anual
+    dimensao: distribuicao
+    inicio_cobertura: '1995'
+    confirmado_em: 2026-10-16
+    observacoes: Linha de pobreza do Banco Mundial para países de renda média-alta. Mesmas quebras do Gini.
+
+  - id: extrema_pobreza_300
+    nome: Pessoas abaixo de US$ 3,00/dia (PPC 2021)
+    coletor: ipeadata
+    codigo: {sercodigo: PNADS_PERCPOBRE300}
+    unidade: '% da população'
+    frequencia: anual
+    dimensao: distribuicao
+    inicio_cobertura: '1995'
+    confirmado_em: 2026-10-16
+    observacoes: Linha internacional de extrema pobreza. Mesmas quebras do Gini.
+
+  - id: desemprego_pme
+    nome: Taxa de desemprego - PME (6 regiões metropolitanas) - série encerrada
+    coletor: ipeadata
+    codigo: {sercodigo: PAN12_TD12}
+    unidade: '%'
+    frequencia: mensal
+    dimensao: trabalho
+    inicio_cobertura: 2002-03
+    confirmado_em: 2026-10-16
+    observacoes: Apenas apêndice. Não comparável com a PNAD Contínua (cobertura metropolitana, outra metodologia). PME encerrada em fev/2016; no IPEADATA a série vai até dez/2015.
+
+  # ------------------------------------------------------------------ ANP (via IPEADATA)
+  - id: petroleo_producao
+    nome: Produção de petróleo total - média diária
+    coletor: anp
+    codigo: {sercodigo: ANP12_PDPET12}
+    unidade: mil barris/dia
+    frequencia: mensal
+    dimensao: energia
+    inicio_cobertura: 1979-01
+    confirmado_em: 2026-10-16
+    observacoes: Dado da ANP republicado pelo IPEADATA (o portal da ANP não oferece API estável). Projetos de petróleo levam muitos anos entre descoberta e produção; produção num mandato reflete decisões de mandatos anteriores.
+
+  # ------------------------------------------------------------------ Banco Mundial (Brasil + pares)
+  - id: wb_pib_pc_real
+    nome: PIB per capita (US$ constantes de 2015)
+    coletor: worldbank
+    codigo: {indicador: NY.GDP.PCAP.KD}
+    unidade: US$ de 2015
+    frequencia: anual
+    dimensao: atividade
+    confirmado_em: 2026-10-16
+
+  - id: wb_pib_pc_ppc
+    nome: PIB per capita, PPC (US$ internacionais constantes de 2021)
+    coletor: worldbank
+    codigo: {indicador: NY.GDP.PCAP.PP.KD}
+    unidade: US$ PPC 2021
+    frequencia: anual
+    dimensao: atividade
+    confirmado_em: 2026-10-16
+
+  - id: wb_pib_cresc
+    nome: Crescimento do PIB (% anual)
+    coletor: worldbank
+    codigo: {indicador: NY.GDP.MKTP.KD.ZG}
+    unidade: '%'
+    frequencia: anual
+    dimensao: atividade
+    confirmado_em: 2026-10-16
+
+  - id: wb_pib_pc_cresc
+    nome: Crescimento do PIB per capita (% anual)
+    coletor: worldbank
+    codigo: {indicador: NY.GDP.PCAP.KD.ZG}
+    unidade: '%'
+    frequencia: anual
+    dimensao: atividade
+    confirmado_em: 2026-10-16
+
+  - id: wb_fbcf_pib
+    nome: Formação bruta de capital fixo (% do PIB)
+    coletor: worldbank
+    codigo: {indicador: NE.GDI.FTOT.ZS}
+    unidade: '% do PIB'
+    frequencia: anual
+    dimensao: investimento
+    confirmado_em: 2026-10-16
+
+  - id: wb_inflacao
+    nome: Inflação ao consumidor (% anual)
+    coletor: worldbank
+    codigo: {indicador: FP.CPI.TOTL.ZG}
+    unidade: '%'
+    frequencia: anual
+    dimensao: precos
+    confirmado_em: 2026-10-16
+
+  - id: wb_desemprego_oit
+    nome: Desemprego total (% da força de trabalho) - estimativa modelada OIT
+    coletor: worldbank
+    codigo: {indicador: SL.UEM.TOTL.ZS}
+    unidade: '%'
+    frequencia: anual
+    dimensao: trabalho
+    confirmado_em: 2026-10-16
+    observacoes: Estimativa modelada pela OIT, não é pesquisa direta; usada só para comparação com pares.
+
+  - id: wb_gini
+    nome: Índice de Gini (Banco Mundial)
+    coletor: worldbank
+    codigo: {indicador: SI.POV.GINI}
+    unidade: índice (0-100)
+    frequencia: anual
+    dimensao: distribuicao
+    confirmado_em: 2026-10-16
+    observacoes: Disponível apenas para países, não para agregados regionais.
+
+  - id: wb_extrema_pobreza
+    nome: Pobreza a US$ 3,00/dia (PPC 2021), % da população
+    coletor: worldbank
+    codigo: {indicador: SI.POV.DDAY}
+    unidade: '% da população'
+    frequencia: anual
+    dimensao: distribuicao
+    confirmado_em: 2026-10-16
+    observacoes: O código SI.POV.DDAY passou a medir a linha de US$ 3,00 (antes US$ 2,15).
+
+  - id: wb_pobreza_830
+    nome: Pobreza a US$ 8,30/dia (PPC 2021), % da população
+    coletor: worldbank
+    codigo: {indicador: SI.POV.UMIC}
+    unidade: '% da população'
+    frequencia: anual
+    dimensao: distribuicao
+    confirmado_em: 2026-10-16
