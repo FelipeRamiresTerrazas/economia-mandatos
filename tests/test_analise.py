@@ -5,6 +5,7 @@ import pytest
 from src import tratamento as t
 from src.analise import Indisponivel, NaoSeAplica, calcular
 from src.periodos import Periodo, fim_do_periodo, listar_periodos, n_esperado
+from src.visualizacao.graficos import numero
 
 TS = pd.Timestamp
 MANDATO = Periodo("m", "M", TS("2003-01-01"), TS("2004-12-31"))
@@ -141,3 +142,9 @@ def test_deflacionar_exige_ano_base_completo():
     with pytest.raises(ValueError, match="ano-base"):
         t.deflacionar(serie(["2021-01-01"], [1.0]), "anual", indice, 2021)
 
+
+# ------------------------------------------------------------------ formatação
+def test_numero_formato_brasileiro():
+    assert numero(1234.5) == "1.234,5"
+    assert numero(-0.25, 2, sinal=True) == "−0,25"
+    assert numero(3.0, 1, sinal=True) == "+3,0"

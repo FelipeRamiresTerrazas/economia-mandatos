@@ -187,7 +187,10 @@ series:
     dimensao: trabalho
     inicio_cobertura: 2012T1
     confirmado_em: 2026-10-16
-    observacoes: O IBGE já deflaciona a série para o trimestre mais recente; a cada divulgação o nível de toda a série muda.
+    observacoes: >
+      O IBGE já deflaciona a série para o trimestre mais recente; a cada divulgação o nível de toda a
+      série muda. A API não retorna valores de 2020T2 a 2022T1 (verificado em 2026-10-17); o gráfico
+      mostra a lacuna e nenhum valor é preenchido.
 
   - id: informalidade_trim
     nome: Taxa de informalidade (PNAD Contínua)

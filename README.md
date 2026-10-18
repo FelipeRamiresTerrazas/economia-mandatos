@@ -5,7 +5,8 @@ ANP e Banco Mundial) e os organiza por mandato presidencial, com as mesmas fórm
 governos. O objetivo é informar o debate, não defender governo nenhum; as regras estão em
 [CLAUDE.md](CLAUDE.md).
 
-> Situação: **Etapa 2 (coleta) concluída.** Tratamento, análise e relatório ainda não foram implementados.
+> Situação: pipeline completo (coleta, tratamento, análise e relatório). O resultado é
+> `reports/relatorio.html`, um arquivo único que abre no navegador.
 
 ## Instalação
 
@@ -24,8 +25,9 @@ pip install -e ".[dev]"
 ## Como rodar
 
 ```bash
-python -m src.main            # roda todas as etapas implementadas
+python -m src.main            # coleta -> tratamento -> analise -> relatorio
 python -m src.main coleta     # só a coleta
+python -m src.main analise relatorio   # recalcula e regera o relatório sem coletar
 pytest                        # testes
 ```
 
@@ -54,10 +56,17 @@ na API da fonte. Nenhum código de série fica fixo no Python.
 ```
 config/periodos.yaml     mandatos, subperíodos (Dilma 2 / Temer) e ano-base da deflação
 config/series.yaml       catálogo: fonte, código, unidade, frequência e ressalvas de cada série
+config/indicadores.yaml  séries derivadas, indicadores do relatório (série + métrica) e pares
 src/coleta/              um coletor por fonte: ibge, bcb, ipeadata, worldbank, anp
+src/tratamento/          séries derivadas (fim de ano, médias mensais, Selic real, deflação pelo IPCA)
+src/analise/             métricas por período e regras de cobertura/quebra
+src/visualizacao/        relatório HTML com gráficos SVG
 data/raw/<fonte>/        respostas brutas das APIs + <id>.meta.json (URLs, data de download, SHA-256)
 data/processed/series/   séries normalizadas (data, valor[, pais])
+data/processed/derivadas/          séries calculadas pelo tratamento
+data/processed/analise/            indicadores_por_periodo.csv e pares_por_mandato.csv
 data/processed/coleta_resumo.csv   status, cobertura e data de download de cada série
+reports/relatorio.html             relatório final
 tests/                   testes offline
 ```
 
